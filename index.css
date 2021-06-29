@@ -1,0 +1,331 @@
+
+body{
+    margin: 0;
+    background-color: azure;
+   
+    
+}
+/* first header where frew informations are there which indicates to contact and rendering footer directly */
+header{
+    height: 3%;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+.fas fa-mobile-alt{
+    color: black;
+    font-size: 3px;
+}
+.header{
+    display: flex;
+}
+.header1{
+    display: flex;
+    margin-left: 12.3%;
+}
+.ok{
+    font-size: 9px;
+    font-family: 'Chilanka', cursive;
+    /* margin: 3%; */
+    /* width: 10%; */
+    display: inline;
+    /* margin-left: 3%; */
+    margin-left: 10px;
+    margin-top: 5.7px;
+    cursor: pointer;
+}
+
+.header2{
+    display: flex;
+    /* margin-left: 12.3%; */
+    /* float: right; */
+    margin-left: 45%;
+}
+.ok{
+    font-size: 9px;
+    font-family: 'Chilanka', cursive;
+    /* margin: 3%; */
+    /* width: 10%; */
+    display: inline;
+    /* margin-left: 3%; */
+    /* margin-left: 10px; */
+    margin-top: 5.7px;
+    float: right;
+
+}
+/* header 2 where home and login page are there wich indicates to Authentication for any user to shope  */
+#H2{
+
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    height: 52px;
+    line-height: 52px;
+    position: relative;
+    width: 100%;
+}
+.logo{
+    height: 50px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    /* width: 20%; */
+    margin-left: 12.9%;
+}
+.part-1-content{
+/* font-family: 'Livvic', sans-serif; */
+cursor: pointer;
+    display: inline-table;
+    font-family: montserrat,sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    padding: 0 8px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.part-2-content{
+    margin-left: 20%;
+
+}
+.search{
+    border-right: 1px solid black;
+    margin: 10px;
+   
+}
+#hole{
+    margin-left: 6px;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    background: url(laptop.jpeg); 
+    background-size: 100% 100%;
+    animation: slide 20s infinite;
+    perspective: 1px;
+    overflow-y: scroll;
+    overflow-x: hidden;transform-style: preserve-3d;
+}
+@keyframes slide{
+    25%{
+        background: url(22.jpg); 
+    }
+    50%{
+        background: url(3.png); 
+    }
+    75%{
+        background: url(4.jpg); 
+    }
+    /* 85%{
+        background: url(5.jpg); 
+    } */
+    100%{
+        background: url(laptop.jpeg); 
+    }
+}
+/* hovering over slide shows of products  */
+
+
+/* section 1 */
+
+.sec_1{
+margin-left: 13%;
+display: inline;
+margin-top: 10%;
+cursor: pointer;
+/* background-color: white; */
+}
+#acha1{
+   height: 34%;
+
+}
+#acha2{
+    height: 34%;
+
+}
+/* section 2 */
+
+.sec_2{
+    text-align: center;
+    padding-top: 20px;
+    /* background-color: #BC702D; */
+}
+h5{
+    background: transparent;
+    border: 0;
+    font-size: 30px;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;font-family: HelveticaNeue-bold;
+    cursor: default;
+    text-align: center;
+    border-bottom: yellow;
+    margin-top: 5%;
+    
+   
+}
+
+#list{
+    display: flex;
+    margin-left: 13%;
+    margin-top: 30px;
+    /* background-image: linear-gradient(#2D737E,#CFE34D); */
+    width: 74%;
+}
+.in-list{
+    display: inline-grid;
+    margin-top: 13px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.in-img{
+    border-radius: 50% ;
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    border: 2px solid yellow;
+    
+}
+/* Interior part */
+
+#listF {
+    margin-left: 13%;
+    display: flex;
+   
+    margin-top: 13px;
+   
+}
+
+.F-img{
+    margin: 0;
+    height: 480px;
+    width: 531px;
+}
+
+/* About design */
+a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     color:  #EEE4E4;
+    padding: 30px 60px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+a:before{
+    content: '';
+    position: absolute;top: 2px;
+    bottom: 2px;
+    left: 2px;
+    top: 2px;
+    width: 50%;
+}
+a span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(to right,#F9EA5A,#AB6D67);
+    animation:  animate1 2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+
+    }
+}
+a span:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(to bottom,#F9EA5A,#AB6D67);
+    animation:  animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+
+    }
+}
+a span:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(to left,#F9EA5A,#AB6D67);
+    animation:  animate3 2s linear infinite;
+}
+@keyframes animate3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+
+    }
+}
+
+a span:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(to top,#F9EA5A,#AB6D67);
+    animation:  animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+
+    }
+}
+/* about us */
+.about-contanier{
+    /* height: 30%; */
+    padding: 60px 0;
+    width: 100%;
+    background-color: #000000;
+}
+
+.oooo{
+    margin-left: 13%;
+}
+
+.name{
+    color: #FCD94A;
+    font-family: montserrat,sans-serif;
+    font-size: 20px;
+}
+.name-2{
+    /* margin-bottom: 2px; */
+    color: #FCD94A;
+    font-family: montserrat,sans-serif;
+    font-size: 12px;
+}
+.icons{
+    font-size: 48px;
+    color: #FCD94A;
+    float: right;
+    margin-right: 13%;
+    margin-top: -68px;
+}
